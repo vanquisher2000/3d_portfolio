@@ -21,6 +21,8 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          install-command: "npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom"
 
       - name: Build project
         run: npm run build
