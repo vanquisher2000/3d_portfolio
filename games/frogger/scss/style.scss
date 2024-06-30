@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height:690px;
+  background-color: #f9f9f9;
+}
+
+
+@import 'container';
+@import 'pavement';
+@import 'road';
+@import 'trees';
+@import 'river';
+@import 'lilypad';
+@import 'car';
+@import 'riverreverse';
+@import 'boxes';
+@import 'log';
+@import 'infoheader';
+@import 'frog';
+@import 'treeimages';
+@import 'killerplant';
+@import 'intructions';
+@import 'overlay';

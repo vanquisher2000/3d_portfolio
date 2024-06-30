@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  height: 690px;
+  background-color: #f9f9f9; }
+
+.container {
+  width: 55%;
+  margin-right: 25px;
+  display: inline;
+  float: right; }
+
+.pavement {
+  background-color: #4d4d4d;
+  height: 50px; }
+
+.road {
+  background-color: #202020;
+  border-bottom: 2px dashed white; }
+
+.trees {
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/872872/thumb/1.jpg");
+  background-size: cover; }
+
+.river {
+  background-image: url("http://musicments.com/img/d_default/seamless-water-texture-animation/seamless-water-texture-animation-flowing-5c74516580da9.gif"); }
+
+.lilypad {
+  background-image: url("https://78.media.tumblr.com/6d8cfc8333b20bfaa977336030978b9f/tumblr_npmvlvxBv01r9co7bo1_500.gif");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.car {
+  background-image: url("images/foodtruck.gif");
+  background-size: 120%; }
+
+.riverreverse {
+  background-image: url("http://musicments.com/img/d_default/seamless-water-texture-animation/seamless-water-texture-animation-flowing-5c74516580da9.gif"); }
+
+div {
+  height: 55px;
+  width: 70.5px;
+  display: inline-block;
+  margin: -2px; }
+
+.log {
+  background-image: url("https://img.clipartimage.com/wood-sign-transparent-png-pictures-free-icons-and-png-backgrounds-free-wooden-sign-clipart-no-background-600_338.png");
+  background-color: #541515;
+  background-size: 300%; }
+
+.infoheader {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 55px;
+  font-family: 'Bahianita', cursive;
+  color: white;
+  background-color: #f54b42;
+  align-items: center; }
+
+.title {
+  font-size: 75px; }
+
+.title:hover {
+  color: rgba(15, 104, 126, 0.6); }
+
+.infoheader p span {
+  font-size: 55px;
+  font-family: 'Bahianita', cursive;
+  color: white; }
+
+.infoheader:hover {
+  color: black; }
+
+.start {
+  font-size: 55px;
+  font-family: 'Bahianita', cursive;
+  color: black; }
+
+@-webkit-keyframes blackWhite {
+  0% {
+    background-color: white;
+    color: black; }
+  50% {
+    background-color: white;
+    color: black; }
+  51% {
+    background-color: black;
+    color: white; }
+  100% {
+    background-color: black;
+    color: white; } }
+.start {
+  background-color: black;
+  color: white;
+  -webkit-animation-name: blackWhite;
+  -webkit-animation-iteration-count: 15;
+  -webkit-animation-duration: 1.5s; }
+
+.start:active {
+  position: relative;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  bottom: 2px;
+  box-shadow: none; }
+
+img {
+  width: 154px;
+  height: 72px; }
+
+.countdown {
+  width: 65px;
+  height: 70px;
+  background-color: white;
+  border-radius: 100%;
+  padding-top: 8px;
+  padding-left: 15px;
+  color: black; }
+
+.frog {
+  background-image: url("images/froggo.gif");
+  background-size: 80%;
+  background-repeat: no-repeat; }
+
+.treeimages {
+  background-image: url("images/tree2.png"), url("https://ak2.picdn.net/shutterstock/videos/872872/thumb/1.jpg");
+  background-size: 80%, cover;
+  background-position: bottom;
+  background-repeat: no-repeat; }
+
+.killerplant {
+  background-image: url("images/killerplant2.gif"), url(https://i.ytimg.com/vi/zUkH1hRXIDM/maxresdefault.jpg);
+  background-size: cover; }
+
+.intructions {
+  color: black;
+  width: 500px;
+  height: 590px;
+  display: inline-flex;
+  text-align: center;
+  margin-left: 25px;
+  padding-top: 20px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  background-color: #f54b42; }
+
+.intructions span {
+  font-size: 45px; }
+
+.list {
+  padding-bottom: 20px;
+  border-bottom: 10px dashed black; }
+
+.list:hover {
+  color: white;
+  transition: 1s; }
+
+li:hover {
+  color: white;
+  transition: 1s; }
+
+#overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 55.3%;
+  /* Full width (cover the whole page) */
+  height: 595px;
+  /* Full height (cover the whole page) */
+  top: 95px;
+  left: 550px;
+  right: 0;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */ }
+
+#overlay p {
+  font-size: 25px;
+  color: #f54b42;
+  top: 450px;
+  left: 290px;
+  font-family: 'Bahianita', cursive;
+  position: absolute;
+  z-index: 3; }
+
+#timesup {
+  display: inline;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 400px;
+  height: 400px; }
+
+/*# sourceMappingURL=style.css.map */

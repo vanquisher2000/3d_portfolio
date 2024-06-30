@@ -1,0 +1,79 @@
+.infoheader {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 55px;
+  font-family: 'Bahianita', cursive;
+  color: white;
+  background-color: #f54b42;
+  align-items: center;
+}
+
+.title {
+  font-size: 75px;
+}
+
+.title:hover {
+  color: rgba(15, 104, 126, 0.6);
+}
+
+.infoheader p span {
+  font-size: 55px;
+  font-family: 'Bahianita', cursive;
+  color: white;
+}
+
+.infoheader:hover {
+  color:black;
+}
+
+.start {
+  font-size: 55px;
+  font-family: 'Bahianita', cursive;
+  color: black;
+}
+
+
+@-webkit-keyframes blackWhite {
+  0% { background-color: white; color:black; }
+  50% { background-color: white; color:black;}
+  51% { background-color: black; color:white;}
+  100% { background-color: black;color:white; }
+}
+
+.start {
+    background-color: black;
+    color:white;
+    -webkit-animation-name: blackWhite;
+    -webkit-animation-iteration-count: 15;
+    -webkit-animation-duration: 1.5s;
+}
+
+
+.start:active {
+  position: relative;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  bottom: 2px;
+  box-shadow: none;
+}
+
+img {
+  width: 154px;
+  height: 72px;
+}
+
+.countdown {
+  width: 65px;
+  height:70px;
+  background-color: white;
+  border-radius: 100%;
+  padding-top: 8px;
+  padding-left: 15px;
+  color: black;
+}
