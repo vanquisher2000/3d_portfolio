@@ -209,7 +209,7 @@ const experiences = [
       {
         title: "株売買WEBアプリ開発",
         elements: [
-          "株式売買をオンラインで行えるWEBアプリケーションの開発。個人投資家向けに、リアルタイムの株価情報、取引履歴の管理、買い注文・売り注文の機能などを提供。高いセキュリティ基準を満たし、ユーザーフレンドリーなインターフェースを目指した。",
+          "株式売買をオンラインで行えるWEBアプリケーションの開発。個人投資家向けに、リアルタイムの株価情報、取引履歴の管理、買い注文・売り注文の機能などを提供。高いセキュリティ基準を満たし、ユーザーフレンドリーなインターフェースを目指ましたした。",
         ],
       },
     ],
@@ -658,7 +658,7 @@ const projects = [
     image: snakeImage,
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/snake",
-    play_link: "/games/snake/index.html",
+    play_link: "/games/_snake/index.html",
   },
   {
     name: "スペースインベーダー",
