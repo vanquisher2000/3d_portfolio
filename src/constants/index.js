@@ -658,7 +658,7 @@ const projects = [
     image: snakeImage,
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/snake",
-    play_link: "/games/_snake/index.html",
+    play_link: "_snake/index.html",
   },
   {
     name: "スペースインベーダー",
