@@ -20,8 +20,20 @@ const ProjectCard = ({
   source_code_link,
   play_link,
 }) => {
+  const noAnimation = {
+    hidden: { opacity: 1 },
+    visible: { opacity: 1 },
+  };
+  const isChrome = () => {
+    const userAgent = navigator.userAgent;
+    return /Chrome/.test(userAgent) && !/Edge|OPR/.test(userAgent);
+  };
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={
+        isChrome() ? noAnimation : fadeIn("up", "spring", index * 0.5, 0.75)
+      }
+    >
       <Tilt
         options={{
           max: 45,
@@ -63,11 +75,11 @@ const ProjectCard = ({
               </a>
             </div>
           </div> */}
-          <div class="absolute bottom-0 left-0 m-2">
+          <div className="absolute bottom-0 left-0 m-2">
             <a
               href={play_link}
               target="_blank"
-              class="flex items-center justify-center w-10 h-10 black-gradient rounded-full"
+              className="flex items-center justify-center w-10 h-10 black-gradient rounded-full"
             >
               <img src={playIcon} alt="Icon" class="w-6 h-6" />
             </a>
