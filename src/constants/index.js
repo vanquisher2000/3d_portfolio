@@ -598,7 +598,7 @@ const projects = [
     image: connectFourImage,
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/connect-four",
-    play_link: "/games/connect-four/index.html",
+    play_link: "/_connect-four/",
   },
   {
     name: "もぐらたたきゲーム",
