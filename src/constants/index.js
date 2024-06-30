@@ -517,46 +517,7 @@ const projects = [
     source_code_link: "https://github.com/vanquisher2000/cal-time-tracker",
     play_link: "https://youtube.com/shorts/6IHXT_BmNLU?feature=share",
   },
-  {
-    name: "日本人口",
-    description: "D3.js,reactを使って日本人口のデータの可視化",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "D3.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: populationChartImage,
-    source_code_link: "https://github.com/vanquisher2000/portofolio",
-    play_link: "/population-chart/index.html",
-  },
-  {
-    name: "テキストアニメーション",
-    description: "マウスを動かすとテキストが粒子化！",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
 
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: textAnimationImage,
-    source_code_link:
-      "https://github.com/vanquisher2000/vanilla-js-text-animation",
-    play_link: "/interactive-text-tool/index.html",
-  },
   {
     name: "don't get caught",
     description: "黄色い魚を避けながら泡を潰そう: 行きたい方向をタップして操作",
@@ -621,6 +582,27 @@ const projects = [
     play_link: "_whach-a-mole/index.html",
   },
   {
+    name: "日本人口",
+    description: "D3.js,reactを使って日本人口のデータの可視化",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "D3.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: populationChartImage,
+    source_code_link: "https://github.com/vanquisher2000/portofolio",
+    play_link: "/population-chart/index.html",
+  },
+  {
     name: "Dフロッガー",
     description:
       "Dフロッガーは、クラシックなゲーム「フロッガー」にインスパイアされたアーケードスタイルのビデオゲームです。プレイヤーはカエルを操作して、忙しい道路や川を渡り、障害物を避けて安全地帯に到達します。このゲームは、素早い反射神経と戦略的な計画が求められ、カエルを目的地まで導く楽しさと挑戦を提供します。鮮やかなグラフィックスと魅力的なゲームプレイで、幅広い年齢層のプレイヤーに楽しんでいただけるゲームです。",
@@ -679,6 +661,25 @@ const projects = [
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/space-invader",
     play_link: "_space-invader/index.html",
+  },
+  {
+    name: "テキストアニメーション",
+    description: "マウスを動かすとテキストが粒子化！",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: textAnimationImage,
+    source_code_link:
+      "https://github.com/vanquisher2000/vanilla-js-text-animation",
+    play_link: "/interactive-text-tool/index.html",
   },
 ];
 
