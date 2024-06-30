@@ -618,7 +618,7 @@ const projects = [
     image: whackAMoleImage,
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/whach-a-mole",
-    play_link: "/games/whach-a-mole/index.html",
+    play_link: "_whach-a-mole/index.html",
   },
   {
     name: "Dフロッガー",
@@ -638,7 +638,7 @@ const projects = [
     image: froggerImage,
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/frogger",
-    play_link: "/games/frogger/index.html",
+    play_link: "_frogger/index.html",
   },
   {
     name: "snake",
@@ -678,7 +678,7 @@ const projects = [
     image: spaceInvaderImage,
     source_code_link:
       "https://github.com/vanquisher2000/vanilla-js/tree/8f77d5710ef3f1b579feff944ebc9b342acf41a6/grid%20based%20games/space-invader",
-    play_link: "/games/space-invader/index.html",
+    play_link: "_space-invader/index.html",
   },
 ];
 
